@@ -1,0 +1,34 @@
+{{define "partials/navbar.html"}}
+<nav class="navbar" id="navbar">
+    <div class="nav-container">
+        <div class="nav-logo">
+            <img src="/static/images/attomos-logo.png" alt="ChatBotHub Logo" style="height: 32px; width: auto;">
+        </div>
+        <ul class="nav-menu" id="navMenu">
+            <li class="nav-item">
+                <a href="/" class="nav-link active">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a href="/chatbots" class="nav-link">Chatbots</a>
+            </li>
+            <li class="nav-item">
+                <a href="/servicios" class="nav-link">Servicios</a>
+            </li>
+            <li class="nav-item">
+                <a href="/precios" class="nav-link">Precios</a>
+            </li>
+            <li class="nav-item">
+                <a href="/contacto" class="nav-link">Contacto</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link nav-cta">Comenzar</a>
+            </li>
+        </ul>
+        <button class="mobile-menu-btn" id="mobileMenuBtn">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+        </button>
+    </div>
+</nav>
+{{end}}
